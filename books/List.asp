@@ -1,0 +1,468 @@
+
+
+
+<!--#include virtual = "/2023/common/inc/head.asp"-->
+
+
+
+<body>
+
+
+
+<div class="bookListWrap">
+<!-- gnb -->
+<!--#include virtual = "/2023/common/inc/gnb.asp"-->
+
+	<section class="subMainWrap">
+		<div class="container">
+			<div class="mainBnrList">
+				<a href="javascript:void(0)" class="bgImageSet" style="background-image: url('/2023/common/img/main/banner.png')">
+					<div class="container">
+						<h2><span class="lightTxt"></span>NEW & HOT<br>
+							<b>이번주 신상 랭킹</b></h2>
+						<h4>4월 3 전격 예약 판매 실시! </h4>
+					</div>
+				</a>
+			</div>
+		</div><!-- container -->
+	</section><!-- subMainWrap -->
+
+
+
+	<section class="mt80 booListCntWrap">
+		<div class="container">
+
+			<div class="listFilter">
+				<h3 class="filterTit">필터</h3>
+				<h3>카테고리</h3>
+
+				<div class="listCategory">
+					<div class="categoryCnt" data-maincurri="maincurri01">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">디자인/CG</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri02">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">건축인테리어</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri03">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">컴퓨터자격증</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri04">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">회계세무</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri05">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">IT</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri06">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">요리</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri07">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">뷰티</div>
+					</div>
+
+					<div class="categoryCnt" data-maincurri="maincurri08">
+						<div class="listIcon bgImageSet"></div>
+						<div class="listTxts">기타</div>
+					</div>
+
+				</div><!-- listCategory -->
+			</div><!-- listFilter -->
+
+			<div class="listCntWrap">
+				<div class="listCntTop">
+					<div class="listAmount">
+					총 <span>23</span>건
+					</div>
+			
+					<ul class="listBtns">
+						<li>신상품순</li>
+						<li>인기</li>
+						<li>할인순</li>
+					</ul>
+				</div><!-- listCntTop -->
+
+				<div class="edulistWrap">
+					<!-- 디자인 -->
+					<div class="eduList" id="maincurri01">
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC Lorem ipsum dolor sit amet. Lorem ipsum dolor.</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover01.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+
+					</div>
+
+
+					<!-- 건축 -->
+					<div class="eduList" id="maincurri02">
+
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+						<div class="eduCntWrap">
+							<a href="/2023/books/detail.asp"><img src="/2023/common/img/main/book-cover02.png" alt="">
+								<div class="eduList-TxtsWrap">
+									<div class="eduListTxts">
+										<div class="delivery">★3월29일배송시작★</div>
+										<div class="eduListTit">멘토씨리즈 인디자인CC</div>
+										<div class="eduPrice">15,000원</div>
+									</div>
+								</div>
+							</a>
+					
+							<a class="eduSelect bgImageSet" href="javascript:informOpen();"></a>
+						</div>
+					</div>
+
+
+					<!-- MOS -->
+					<div class="eduList" id="maincurri03">
+					</div>
+
+					<!-- 자격증 수험서 -->
+					<div class="eduList" id="maincurri04">
+					</div>
+
+					<!-- 획계 -->
+					<div class="eduList" id="maincurri05">
+					</div>
+
+					<!-- 세무 -->
+					<div class="eduList" id="maincurri06">
+					</div>
+
+					<!-- IT -->
+					<div class="eduList" id="maincurri07">
+					</div>
+
+					<!-- 요리 -->
+					<div class="eduList" id="maincurri08">
+					</div>
+
+					<!-- 뷰티 -->
+					<div class="eduList" id="maincurri09">
+					</div>
+				</div><!-- edulistWrap -->
+			</div><!-- listCntWrap -->
+
+
+		</div><!-- container -->
+	</section><!-- booListCntWrap -->
+
+
+	
+</div><!-- bookListwWrap -->
+
+
+	<!-- footer -->
+	<!--#include virtual = "/2023/common/inc/footer.asp"-->
+
+
+
+
+
+</body>
+</html>
