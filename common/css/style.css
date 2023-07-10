@@ -31,7 +31,7 @@ html {font-size: 0.65vw;}
 
 .gnbMiddle {display: flex; display:-webkit-flex; justify-content: space-between;}
 .gnbMiddle .gnbMid-left {display: flex; display:-webkit-flex; width: calc(100% / 12 * 6); justify-content: left;}
-.gnbMiddle .gnbMid-left h1{background-image: url('/2023/common/img/main/gnb_logo.png'); width: 30%; height: min(8rem, 80px); background-size: contain;}
+.gnbMiddle .gnbMid-left h1{background-image: url('/common/img/main/gnb_logo.png'); width: 30%; height: min(8rem, 80px); background-size: contain;}
 .gnbMiddle .gnbMid-left h1 a {width: 100%; height: 100%; display: block;}
 
 .gnbMiddle nav {height: min(6rem, 60px); margin-left: 10%;}
@@ -43,7 +43,7 @@ html {font-size: 0.65vw;}
 
 .gnbMiddle .gnbMid-right .gnbInfo {display: flex; display:-webkit-flex;}
 .gnbMiddle .gnbMid-right .gnbInfo .shopBasketWrap {position: relative; margin-right: 20px;}
-.gnbMiddle .gnbMid-right .gnbInfo .shopBasket {background-image: url('/2023/common/img/main/bag-shopping.png'); width: 20px; height: 20px; cursor:pointer; margin-top: min(3rem, 30px);}
+.gnbMiddle .gnbMid-right .gnbInfo .shopBasket {background-image: url('./common/img/main/bag-shopping.png'); width: 20px; height: 20px; cursor:pointer; margin-top: min(3rem, 30px);}
 .gnbMiddle .gnbMid-right .gnbInfo .basketNum {background-color: #e0bcec; border-radius:50%; -moz-border-radius : 50%; -webkit-border-radius : 50%;  color: #fff; position: absolute; top:-15px; left: 15px; font-size: 7px; width:  25px; height:25px); line-height: 25px; text-align: center;} 
 .gnbMiddle .gnbMid-right .gnbInfo ul {display: flex; display:-webkit-flex; }
 .gnbMiddle .gnbMid-right .gnbInfo ul li {margin: 0 8px; cursor: pointer; font-size: min(1.3rem, 13px); line-height: min(8rem, 80px); position: relative; }
@@ -72,16 +72,16 @@ html {font-size: 0.65vw;}
 .mainBnrWrap:hover .slide-arrow {opacity: 1;}
 .mainBnrWrap .slide-arrow button {width: calc(100% / 12 * 0.5); height: min(5rem, 50px); background-color: transparent; position: absolute; background-size: contain; bottom: min(18rem, 180px);}
 
-.mainBnrWrap .slide-arrow .main-prev {background-image: url('/2023/common/img/main/slickLeft-c.png');}
-.mainBnrWrap .slide-arrow .main-next {background-image: url('/2023/common/img/main/slickRight-c.png'); right: 0;}
+.mainBnrWrap .slide-arrow .main-prev {background-image: url('./common/img/main/slickLeft-c.png');}
+.mainBnrWrap .slide-arrow .main-next {background-image: url('./common/img/main/slickRight-c.png'); right: 0;}
 
 .mainBnrWrap .slide-cont {position: relative;}
 .mainBnrWrap .slide-cont .main-slickBtn {color: #fff; width: fit-content; text-align: center;  position: absolute; bottom: min(8rem, 80px); }
 
 .mSlickBtnWrap {position: relative;}
-.mainBnrWrap .slide-cont .slick-pagi {background-image: url('/2023/common/img/main/slick-pagi-c.png'); padding: min(0.5rem, 5px) min(2.5rem, 25px); border-radius:15px; -moz-border-radius : 15px; -webkit-border-radius : 15px; font-size: min(1.5rem, 15px);}
-.mainBnrWrap .slide-cont .slick-pause {background-image: url('/2023/common/img/main/slick-pause-c.png'); width: 3.2%; height: min(5rem, 50px); background-size: contain; left: 8%; bottom: min(7.1rem, 71px); cursor: pointer;}
-.mainBnrWrap .slide-cont .slick-play {background-image: url('/2023/common/img/main/slick-play-c.png'); width: 3.2%; height: min(5rem, 50px); background-size: contain; left: 8%; bottom: min(7.1rem, 71px); cursor: pointer; display: none;}
+.mainBnrWrap .slide-cont .slick-pagi {background-image: url('./common/img/main/slick-pagi-c.png'); padding: min(0.5rem, 5px) min(2.5rem, 25px); border-radius:15px; -moz-border-radius : 15px; -webkit-border-radius : 15px; font-size: min(1.5rem, 15px);}
+.mainBnrWrap .slide-cont .slick-pause {background-image: url('./common/img/main/slick-pause-c.png'); width: 3.2%; height: min(5rem, 50px); background-size: contain; left: 8%; bottom: min(7.1rem, 71px); cursor: pointer;}
+.mainBnrWrap .slide-cont .slick-play {background-image: url('./common/img/main/slick-play-c.png'); width: 3.2%; height: min(5rem, 50px); background-size: contain; left: 8%; bottom: min(7.1rem, 71px); cursor: pointer; display: none;}
 
 /* 메인배너 애니메이션*/
 .mainBnrList h2 {
@@ -131,9 +131,9 @@ html {font-size: 0.65vw;}
 .qickMenuWrap .quickTop img {display: block; margin: 0 auto;}
 .qickMenuWrap .quickTop li {padding: 20px; cursor: pointer; position: relative;}
 .qickMenuWrap .quickTop li span {margin-top: 10px; display: block;}
-.qickMenuWrap .topBtn {background-image: url('/2023/common/img/main/quick-top.png'); width: 9px; height: 17px; margin: 0 auto;  margin-top: min(3rem, 30px); cursor: pointer;}
+.qickMenuWrap .topBtn {background-image: url('./common/img/main/quick-top.png'); width: 9px; height: 17px; margin: 0 auto;  margin-top: min(3rem, 30px); cursor: pointer;}
 .qickMenuWrap .quickInfo {position: absolute; top: -55px; left: -31px; color: #fff; background-color: #732090; font-size: min(1rem, 10px); padding: 10px; position: relative; display: none;}
-/* .qickMenuWrap .quickInfo:before {display: block; content: ''; width: 10px; height: 10px; background-position : center; background-repeat:no-repeat; background-size: cover; background-image: url('/2023/common/img/main/quick-info.png'); position: absolute; bottom:-7px; left:50px;}
+/* .qickMenuWrap .quickInfo:before {display: block; content: ''; width: 10px; height: 10px; background-position : center; background-repeat:no-repeat; background-size: cover; background-image: url('./common/img/main/quick-info.png'); position: absolute; bottom:-7px; left:50px;}
  */
 /* mainCntWrap */
 .mnCnt01 .eduTab {margin-top: min(3rem, 30px);}
@@ -142,26 +142,26 @@ html {font-size: 0.65vw;}
 .mnCnt01 .eduTab li em {font-style: initial;}
 .mnCnt01 .eduTab li.on {background-color: #732090;}
 .mnCnt01 .eduTab li.on span {font-weight: 700; color: #732090;}
-.mnCnt01 .eduTab li.design {background-image: url('/2023/common/img/main/tab-design.png');}
-.mnCnt01 .eduTab li.on.design {background-image: url('/2023/common/img/main/tab-design-wh.png');}
-.mnCnt01 .eduTab li.architect {background-image: url('/2023/common/img/main/tab-arke.png');}
-.mnCnt01 .eduTab li.on.architect {background-image: url('/2023/common/img/main/tab-arke-wh.png');}
-.mnCnt01 .eduTab li.mos {background-image: url('/2023/common/img/main/tab-mos.png');}
-.mnCnt01 .eduTab li.on.mos {background-image: url('/2023/common/img/main/tab-mos-wh.png');}
-.mnCnt01 .eduTab li.certi {background-image: url('/2023/common/img/main/tab-certi.png');}
-.mnCnt01 .eduTab li.on.certi {background-image: url('/2023/common/img/main/tab-certi-wh.png');}
-.mnCnt01 .eduTab li.account {background-image: url('/2023/common/img/main/tab-account.png');}
-.mnCnt01 .eduTab li.on.account {background-image: url('/2023/common/img/main/tab-account-wh.png');}
-.mnCnt01 .eduTab li.tax {background-image: url('/2023/common/img/main/tab-tax.png');}
-.mnCnt01 .eduTab li.on.tax {background-image: url('/2023/common/img/main/tab-tax-wh.png');}
-.mnCnt01 .eduTab li.it {background-image: url('/2023/common/img/main/tab-it.png');}
-.mnCnt01 .eduTab li.on.it {background-image: url('/2023/common/img/main/tab-it-wh.png');}
-.mnCnt01 .eduTab li.cook {background-image: url('/2023/common/img/main/tab-cook.png');}
-.mnCnt01 .eduTab li.on.cook {background-image: url('/2023/common/img/main/tab-cook-wh.png');}
-.mnCnt01 .eduTab li.beauty {background-image: url('/2023/common/img/main/tab-beauty.png');}
-.mnCnt01 .eduTab li.on.beauty {background-image: url('/2023/common/img/main/tab-beauty-wh.png');}
-.mnCnt01 .eduTab li.etc {background-image: url('/2023/common/img/main/tab-etc.png');}
-.mnCnt01 .eduTab li.on.etc {background-image: url('/2023/common/img/main/tab-etc-wh.png');}
+.mnCnt01 .eduTab li.design {background-image: url('./common/img/main/tab-design.png');}
+.mnCnt01 .eduTab li.on.design {background-image: url('./common/img/main/tab-design-wh.png');}
+.mnCnt01 .eduTab li.architect {background-image: url('./common/img/main/tab-arke.png');}
+.mnCnt01 .eduTab li.on.architect {background-image: url('./common/img/main/tab-arke-wh.png');}
+.mnCnt01 .eduTab li.mos {background-image: url('./common/img/main/tab-mos.png');}
+.mnCnt01 .eduTab li.on.mos {background-image: url('./common/img/main/tab-mos-wh.png');}
+.mnCnt01 .eduTab li.certi {background-image: url('./common/img/main/tab-certi.png');}
+.mnCnt01 .eduTab li.on.certi {background-image: url('./common/img/main/tab-certi-wh.png');}
+.mnCnt01 .eduTab li.account {background-image: url('./common/img/main/tab-account.png');}
+.mnCnt01 .eduTab li.on.account {background-image: url('./common/img/main/tab-account-wh.png');}
+.mnCnt01 .eduTab li.tax {background-image: url('./common/img/main/tab-tax.png');}
+.mnCnt01 .eduTab li.on.tax {background-image: url('./common/img/main/tab-tax-wh.png');}
+.mnCnt01 .eduTab li.it {background-image: url('./common/img/main/tab-it.png');}
+.mnCnt01 .eduTab li.on.it {background-image: url('./common/img/main/tab-it-wh.png');}
+.mnCnt01 .eduTab li.cook {background-image: url('./common/img/main/tab-cook.png');}
+.mnCnt01 .eduTab li.on.cook {background-image: url('./common/img/main/tab-cook-wh.png');}
+.mnCnt01 .eduTab li.beauty {background-image: url('./common/img/main/tab-beauty.png');}
+.mnCnt01 .eduTab li.on.beauty {background-image: url('./common/img/main/tab-beauty-wh.png');}
+.mnCnt01 .eduTab li.etc {background-image: url('./common/img/main/tab-etc.png');}
+.mnCnt01 .eduTab li.on.etc {background-image: url('./common/img/main/tab-etc-wh.png');}
 
 
 .mnCnt01 .eduTab li span{position: absolute; top:min(9rem, 90px); left:0; width: 100%; margin: 0 auto; text-align: center; font-size: min(1.5rem, 15px); letter-spacing: -1px; font-weight: 500;}
@@ -177,13 +177,13 @@ html {font-size: 0.65vw;}
 
 .mnCnt01 .eduList .eduList-TxtsWrap .eduListTit {line-height: min(1.8rem, 18px); display: block; white-space : nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: min(0.5rem, 5px);}
 .mnCnt01 .eduList .eduList-TxtsWrap .eduPrice {line-height: min(1.8rem, 18px); color: #999999; margin-top: 5px;}
-.mnCnt01 .eduSelect {background-image: url('/2023/common/img/main/eduSelect.png'); width: 13%; height: min(3rem, 30px); background-size: contain; position: absolute; right: 0; bottom: min(3.3rem, 30px); cursor: pointer; transition: background-image 0.5s;}
-.mnCnt01 .eduSelect.on{background-image: url('/2023/common/img/main/eduSelect-full.png');}
+.mnCnt01 .eduSelect {background-image: url('./common/img/main/eduSelect.png'); width: 13%; height: min(3rem, 30px); background-size: contain; position: absolute; right: 0; bottom: min(3.3rem, 30px); cursor: pointer; transition: background-image 0.5s;}
+.mnCnt01 .eduSelect.on{background-image: url('./common/img/main/eduSelect-full.png');}
 
 .mainCntBtn {margin: 0 auto; margin-top: min(8rem, 80px); width: calc(100% / 12 * 2); border : 1px solid #b2b2b2; padding: 8px 0; padding-left: 45px; text-align: center; border-radius: 20px; -moz-border-radius : 20px; -webkit-border-radius : 20px; display: flex; display:-webkit-flex; justify-content: around; color: #b2b2b2; font-size: min(13rem, 13px); cursor:pointer; min-width: 160px;  transition: all 0.5s;}
-.mainCntBtn .btnArrow {background-image: url('/2023/common/img/main/rightArrow.png'); width: 20px; height: 20px;}
+.mainCntBtn .btnArrow {background-image: url('./common/img/main/rightArrow.png'); width: 20px; height: 20px;}
 .mainCntBtn:hover {background-color: #732090; color: #fff;}
-.mainCntBtn:hover .btnArrow {margin-left: 30px; transition: margin-left 0.5s; background-image: url('/2023/common/img/main/rightArrow-wh.png');}
+.mainCntBtn:hover .btnArrow {margin-left: 30px; transition: margin-left 0.5s; background-image: url('./common/img/main/rightArrow-wh.png');}
 
 
 
@@ -262,15 +262,15 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .paging ul {display: flex; display:-webkit-flex; justify-content: space-between;}
 .paging ul li {font-size: min(1.2rem, 12px); margin: 0 5px; width: 20px; height: 20px; text-align: center; border-radius: 50%; -moz-border-radius : 50%; -webkit-border-radius : 50%; line-height: 20px; transition: all 0.5s;}
 .paging ul li.on {background-color: #732090; color: #fff;}
-.paging .pgNest {background-image: url('/2023/common/img/sub/paging-next.png'); width: 5px; height: 10px; display: block; margin-left: 10px; margin-top: 6px;}
+.paging .pgNest {background-image: url('./common/img/sub/paging-next.png'); width: 5px; height: 10px; display: block; margin-left: 10px; margin-top: 6px;}
 
 /* 주문수량체크 */
 .bkAmountWrap .bkAmountTit {font-size: min(1.6rem, 16px); color: #676767;}
 .bkAmountWrap .bkUpdown {margin-top: min(2rem, 20px); display: flex; display:-webkit-flex; background-color: #fff; width: 22%; justify-content: space-evenly; border: 1px solid #ddd; border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; min-width: 80px;}
 .bkAmountWrap .bkUpdown input{width: 40%; min-width: 0; text-align: center; border: 0; border-left: 1px solid #ddd; border-right: 1px solid #ddd; padding-left: 0;}
 .bkAmountWrap .bkUpdown .bgImageSet {width: 26px; height: 32px; display: block; cursor: pointer; /* margin-top: 9px; */}
-.bkAmountWrap .bkUpdown .bkUpBtn {background-image: url('/2023/common/img/sub/amount-plus.png');background-size:15px;}
-.bkAmountWrap .bkUpdown .bkDownBtn {background-image: url('/2023/common/img/sub/amount-minus.png'); background-size:15px;}
+.bkAmountWrap .bkUpdown .bkUpBtn {background-image: url('./common/img/sub/amount-plus.png');background-size:15px;}
+.bkAmountWrap .bkUpdown .bkDownBtn {background-image: url('./common/img/sub/amount-minus.png'); background-size:15px;}
 
 /* 버튼 */
 .btn {cursor: pointer; border-radius: 5px; -moz-border-radius : 5px; -webkit-border-radius : 5px; text-align: center; transition: all 0.3s; display: block; border: 1px solid #ddd;}
@@ -307,7 +307,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* /2023/books/list.asp */
+/* ./books/list.asp */
 .listCntWrap .eduTab li span{position: absolute; top:min(9rem, 90px); left:0; width: 100%; margin: 0 auto; text-align: center; font-size: min(1.5rem, 15px); letter-sapcing: -1px;}
 .listCntWrap .edulistWrap {position: relative; margin-top: min(4rem, 40px);}
 .listCntWrap .eduList { display: flex; display:-webkit-flex; justify-content: left; flex-wrap: wrap; height: 0; overflow-y: hidden;}
@@ -321,8 +321,8 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 .listCntWrap .eduList .eduList-TxtsWrap .eduListTit {font-size: min(1.5rem, 15px); line-height: min(1.8rem. 18px); display: block; white-space : nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: min(0.5rem, 5px);}
 .listCntWrap .eduList .eduList-TxtsWrap .eduPrice {font-size: min(1.5rem, 15px); line-height: min(1.8rem. 18px); color: #999999; margin-top: 5px;}
-.listCntWrap .eduSelect {background-image: url('/2023/common/img/main/eduSelect.png'); width: 13%; height: min(3rem, 30px); background-size: contain; position: absolute; right: 0; bottom: min(4rem, 40px); cursor: pointer; transition: background-image 0.5s;}
-.listCntWrap .eduSelect.on{background-image: url('/2023/common/img/main/eduSelect-full.png');}
+.listCntWrap .eduSelect {background-image: url('./common/img/main/eduSelect.png'); width: 13%; height: min(3rem, 30px); background-size: contain; position: absolute; right: 0; bottom: min(4rem, 40px); cursor: pointer; transition: background-image 0.5s;}
+.listCntWrap .eduSelect.on{background-image: url('./common/img/main/eduSelect-full.png');}
 
 .booListCntWrap .container {display: flex; justify-content:space-between; position: relative;}
 .booListCntWrap .listFilter {width: 14%; position: sticky; flex-shrink: 0; max-height: calc(100vh - 120px); overflow: hidden scroll; top: min(18rem, 180px); -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */}
@@ -331,8 +331,8 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .booListCntWrap .listFilter .filterTit {border-bottom: 1px solid #ddd}
 .booListCntWrap .listFilter .categoryCnt {display: flex; padding-top: 15px; cursor: pointer;}
 .booListCntWrap .listFilter .categoryCnt.on {font-weight: 600; color: #732090;}
-.booListCntWrap .listFilter .categoryCnt.on .listIcon{background-image: url('/2023/common/img/sub/filter-full.png')}
-.booListCntWrap .listFilter .listIcon {width: 17px; height: 15px; background-image: url('/2023/common/img/sub/filter-wh.png'); transition: background-image 0.5s; background-size:contain;}
+.booListCntWrap .listFilter .categoryCnt.on .listIcon{background-image: url('./common/img/sub/filter-full.png')}
+.booListCntWrap .listFilter .listIcon {width: 17px; height: 15px; background-image: url('./common/img/sub/filter-wh.png'); transition: background-image 0.5s; background-size:contain;}
 .booListCntWrap .listFilter .listTxts {margin-left: 5px; margin-top: -3px;}
 
 .booListCntWrap .listCntWrap {width: 80%; margin: 0 0 0 auto;}
@@ -343,15 +343,15 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .booListCntWrap .listCntWrap .listBtns li:nth-child(1) {border:0;}
 
 
-/* /2023/books/detail.asp */
+/* ./books/detail.asp */
 .bookViewWrap {margin-top: min(-4rem, 40px);}
 .bookViewWrap .gnbBtm {display: none !important;}
 .bkListTop-Btm {display: flex; display:-webkit-flex; justify-content: space-between; width: 30%; height: min(5rem, 50px); margin: 0 0 0 auto; margin-top: min(2rem, 20px);}
 .bkListTop-Btm div {border-radius: 5px; -moz-border-radius : 5px; -webkit-border-radius : 5px; height: 100%; color: #fff; cursor: pointer;}
-.bkListTop-Btm .bkTopSelect {width: 15%; background-image: url('/2023/common/img/sub/eduSelect-bk.png'); background-size : min(3rem, 30px); border: 1px solid #ddd; transition: background-image 0.5s;}
+.bkListTop-Btm .bkTopSelect {width: 15%; background-image: url('./common/img/sub/eduSelect-bk.png'); background-size : min(3rem, 30px); border: 1px solid #ddd; transition: background-image 0.5s;}
 .bkListTop-Btm a {width: 49%;}
 .bkListTop-Btm .bkTopBtns {width: 100%; text-align: center; padding: min(1.5rem, 15px);}
-.bkListTop-Btm .bkTopSelect.on {background-image: url('/2023/common/img/sub/eduSelect-bk-full.png');}
+.bkListTop-Btm .bkTopSelect.on {background-image: url('./common/img/sub/eduSelect-bk-full.png');}
 .bkListTop-Btm .bkTopShowBag {background-color: #000; border-radius: 5px; -moz-border-radius : 5px; -webkit-border-radius : 5px;}
 .bkListTop-Btm .bkTopBuy {background-color: #732090; border-radius: 5px; -moz-border-radius : 5px; -webkit-border-radius : 5px;}
 
@@ -435,7 +435,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 /* common */
 .mypage-sec .mypageCntWrap {border-bottom: 1px solid #ddd;}
-.checkIcon {width: 17px; height: 17px; background-image: url('/2023/common/img/sub/filter-wh.png'); transition: background-image 0.5s; background-size:contain; margin-right: 3px; margin-top: 3px; cursor:pointer; border:0; background-position : center; background-repeat:no-repeat;}
+.checkIcon {width: 17px; height: 17px; background-image: url('./common/img/sub/filter-wh.png'); transition: background-image 0.5s; background-size:contain; margin-right: 3px; margin-top: 3px; cursor:pointer; border:0; background-position : center; background-repeat:no-repeat;}
 
 
 .mypage-top {width: 100vw; background-color: #fbfbfb; padding: min(8rem, 80px) 0; text-align: center; font-size: min(1.4rem, 14px); line-height: min(2rem, 20px);}
@@ -455,12 +455,12 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .mypage-top .userNav .userNavList:before {display: block; content: ''; width: 1px; height: 40%; background-color: #ddd; position: absolute; top: min(1rem, 10px); right: -13px;}
 .mypage-top .userNav .userNavList:nth-last-child(1):before {display: none;}
 .mypage-top .userNav .userNavList a .bgImageSet {width: 80%; height: min(3.5rem, 35px); margin: 0 auto; margin-bottom: min(2.5rem, 25px); margin-top: min(1.5rem, 15px); background-size: contain;}
-.mypage-top .userNav .userNavList a .deliver {background-image: url('/2023/common/img/sub/mypage-deliver.png');}
-.mypage-top .userNav .userNavList a .points {background-image: url('/2023/common/img/sub/mypage-point.png');}
-.mypage-top .userNav .userNavList a .coupon {background-image: url('/2023/common/img/sub/mypage-coupon.png');}
-.mypage-top .userNav .userNavList a .interest {background-image: url('/2023/common/img/sub/mypage-interest.png');}
-.mypage-top .userNav .userNavList a .download {background-image: url('/2023/common/img/sub/mypage-download.png');}
-.mypage-top .userNav .userNavList a .inquiry {background-image: url('/2023/common/img/sub/mypage-inquiry.png');}
+.mypage-top .userNav .userNavList a .deliver {background-image: url('./common/img/sub/mypage-deliver.png');}
+.mypage-top .userNav .userNavList a .points {background-image: url('./common/img/sub/mypage-point.png');}
+.mypage-top .userNav .userNavList a .coupon {background-image: url('./common/img/sub/mypage-coupon.png');}
+.mypage-top .userNav .userNavList a .interest {background-image: url('./common/img/sub/mypage-interest.png');}
+.mypage-top .userNav .userNavList a .download {background-image: url('./common/img/sub/mypage-download.png');}
+.mypage-top .userNav .userNavList a .inquiry {background-image: url('./common/img/sub/mypage-inquiry.png');}
 .mypage-top .userNav .userNavList.on a {font-weight: 700; color: #732090;}
 .mypage-top .userNav .userNavList.on a img {display: none;}
 
@@ -472,7 +472,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .myPageCnt {border-top : 1px solid #ddd;}
 
 
-/* 장바구니- /2023/mypage/cart.asp */
+/* 장바구니- ./mypage/cart.asp */
 .cartWrap .mypage-sec .mypageTitWrap {width: calc(100% / 12 * 8.7); color: #222;}
 .mypage-sec .cart-secWrap {display: flex; display:-webkit-flex; justify-content: space-between; position: relative;}
 .mypage-sec .cart-secWrap .mypageCntWrap {width: calc(100% / 12 * 8.7); overflow: hidden;}
@@ -483,7 +483,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 .mypage-sec .myPageCnt .bkAmountWrap {display: flex; display:-webkit-flex; justify-content: space-around; padding: min(7.2rem, 72px) 0px; width: 30%; margin: 0 0 0 auto;}
-.mypage-sec .myPageCnt .bkAmountWrap .myCntCancle {background-image: url('/2023/common/img/sub/btn-cancle.png'); width: 15px; height: 15px; margin-top: min(3rem, 30px); cursor: pointer;}
+.mypage-sec .myPageCnt .bkAmountWrap .myCntCancle {background-image: url('./common/img/sub/btn-cancle.png'); width: 15px; height: 15px; margin-top: min(3rem, 30px); cursor: pointer;}
 .mypage-sec .myPageCnt .checkIcon {margin-top: min(8.5rem, 85px); width: 17px; height: 17px;}
 .mypage-sec .myPageCnt .myCntItem {width: 60%; margin-left: 10px;}
 
@@ -510,7 +510,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* 교재배송- /2023/mypage/purchase.asp */
+/* 교재배송- ./mypage/purchase.asp */
 .orderTop {background-color: #FAFAFA; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; display: flex; display:-webkit-flex; justify-content: space-between; padding: min(1rem, 10px) 20px; color: #222;}
 .orderTop .orderTop-rht {color: #676767;}
 
@@ -537,13 +537,13 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* 반품 팝업창 - /2023/mypage/purchase_cancel.asp */
+/* 반품 팝업창 - ./mypage/purchase_cancel.asp */
 .canclePopCnt {background-color: #fff;width: 420px; margin: 0 auto; border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; padding: 0 20px; height: auto; padding-bottom: 30px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 
 
 
 
-/* 장바구니 확인 팝업창 - /2023/customer/purchase_inform.asp */
+/* 장바구니 확인 팝업창 - ./customer/purchase_inform.asp */
 .informPopCnt {background-color: #fff;width: 420px; margin: 0 auto; border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; padding: 0 20px; height: auto; padding-bottom: 30px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .informPopCnt p {text-align: center; padding: 20px; font-weight: 600; font-size: min(1.8rem, 18px);}
 .informPopCnt .cartOrder {width: 100%; margin-top: 20px;}
@@ -578,7 +578,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* 리뷰 팝업창 - /2023/mypage/review_write.asp */
+/* 리뷰 팝업창 - ./mypage/review_write.asp */
 .reviewPopCnt {background-color: #fff;width: 420px; margin: 0 auto; border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; padding: 0 20px; height: auto; padding-bottom: 30px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 
 .reviewCnt {display: flex; display:-webkit-flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;}
@@ -606,7 +606,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 .review-memo .reviewQ{margin-top: 10px;}
 .reviewPhotoBtn {font-size: 16px; text-align: center; border: 1px solid #ddd; width: 100%; padding: 5px 0; display: block; margin-top: 10px; position: relative;}
-.reviewPhotoBtn span:after {display: inline-block; content: ''; width: 22px; height: 22px; background-image: url('/2023/common/img-mo/sub/reviewPhoto-Icon.png'); background-position : center; background-repeat:no-repeat; background-size: cover; position: absolute; top: 7px; left:238px;}
+.reviewPhotoBtn span:after {display: inline-block; content: ''; width: 22px; height: 22px; background-image: url('./common/img-mo/sub/reviewPhoto-Icon.png'); background-position : center; background-repeat:no-repeat; background-size: cover; position: absolute; top: 7px; left:238px;}
 
 .reviewCntWrap .cartOrder {display: flex; display:-webkit-flex; justify-content: space-between; width: 50%; margin: 0 auto; margin-top: 30px;}
 .reviewCntWrap .cartOrder li {width: 50%; margin: 0 5px; font-size: 14px; padding: 4px 8px;}
@@ -617,7 +617,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* 배송지 수정 팝업창 - /2023/customer/address_edit.asp */
+/* 배송지 수정 팝업창 - ./customer/address_edit.asp */
 .addEditPopCnt {padding-bottom: 20px;}
 
 .addeditPop .topTitle {font-size: 16px; text-align: center; padding-bottom: 10px; border-bottom: 1px solid #ddd; margin-top: 0;}
@@ -639,7 +639,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .orderImpt {margin-bottom: 10px;}
 
 
-/* 스크랩북- /2023/mypage/scrapBook.asp */
+/* 스크랩북- ./mypage/scrapBook.asp */
 .scrapBook-secWrap .myCntItem {padding: min(2rem, 20px) 30px; border-bottom: 1px solid #ddd;}
 .scrapBook-secWrap .myCntItem img {width: 11%;}
 .scrapBook-secWrap .myPageCnt .myCntItem .myCntTxt {padding: min(2rem, 20px) 10px; margin-top: min(1.5rem, 20px); width: 68%;}
@@ -648,7 +648,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .scrapBook-secWrap .addShopBag {border: 1px solid #732090; color: #732090;}
 .scrapBook-secWrap .addShopBag:hover {color: #fff;} 
 
-/* 예제 다운로드- /2023/download/list.asp */
+/* 예제 다운로드- ./download/list.asp */
 .downlistWrap .mypage-sec .cart-secWrap .mypageCntWrap {width: 100%;}
 .downlistWrap .myPageCnt .myCntItem img {width: 21%;}
 .downlistWrap .mypageBtns {margin-top: min(5rem, 50px);}
@@ -662,7 +662,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .emailCnt .emailBtn {background-color: #732090; width: 16%; color: #fff; padding: min(1rem, 10px) 10px;}
 
 
-/* 1:1문의- /2023/mypage/inquiry.asp */
+/* 1:1문의- ./mypage/inquiry.asp */
 .inquiryWrap .mypage-sec .mypageTitWrap{border-bottom: 0;}
 .askbtn {padding: min(0.5rem, 5px) min(1rem, 10px); margin-top: min(2rem, 20px); height: min(3.5rem, 35px);}
 
@@ -692,7 +692,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 .inquiryPopCnt .popInfo {margin: 0 0 0 auto; width: 75%; margin-top: 10px;}
 .inquiryPopCnt textarea {min-height: initial;}
 
-/* 포인트- /2023/mypage/points.asp */
+/* 포인트- ./mypage/points.asp */
 .pointsWrap .mypageTitWrap{display: flex; display:-webkit-flex; justify-content: space-between;}
 .pointsCnt {border-top: 1px solid #000;border-bottom: 1px solid #000; text-align: center; padding: min(4rem, 40px);}
 .pointsCnt .pointsNum {color: #732090; font-weight: 700; font-size: min(3rem, 30px); padding: 10px 0;}
@@ -711,7 +711,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* 회원가입- /2023/mypage/join.asp */
+/* 회원가입- ./mypage/join.asp */
 .myJoin {width: 50%; margin: 0 auto; padding: min(8rem, 80px) 0;}
 .joinTop {font-size: min(2.5rem, 25px); font-weight: 700; line-height: min(6rem, 60px); border-bottom: 2px solid #333;}
 
@@ -730,7 +730,7 @@ footer .ftrRht .ftrRhtTit img {width: 20px; height: 20px; line-height: min(1rem,
 
 
 
-/* 로그인- /2023/mypage/login.asp */
+/* 로그인- ./mypage/login.asp */
 .mylogin {width: 50%; margin: 0 auto; padding: min(8rem, 80px) 0;}
 .loginWrap {margin-top: min(3rem, 30px); border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; border: 1px solid #ddd; overflow: hidden;}
 .loginWrap li input {border: 0; width: 100%; padding: 10px;}
@@ -756,7 +756,7 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 
 
 
-/* 공지사항- /2023/community/notice.asp */
+/* 공지사항- ./community/notice.asp */
 .noticeList {padding: min(4rem, 40px) 0;}
 /* .noticePadList li:nth-child(-n+4) {margin-bottom: min(4rem, 40px);} */
 .noticePadList li {border-top: 1px solid #ddd;}
@@ -773,7 +773,7 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 
 
 
-/* 공지사항 상세- /2023/community/noticeView.asp */
+/* 공지사항 상세- ./community/noticeView.asp */
 .board-top {padding: 20px 0; border-bottom: 1px solid #ddd; display: flex; display:-webkit-flex; justify-content: space-between;}
 .board-top h3 {font-weight: 700; display: block; white-space : nowrap; overflow: hidden; text-overflow: ellipsis; width: 70%;}
 .board-detail {margin-top: min(4rem, 40px); padding-bottom: min(4rem, 40px); border-bottom: 1px solid #ddd;}
@@ -781,12 +781,12 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 .listBack {width: 20%; margin: 0 auto; padding: 10px 0; margin-top: min(5rem, 50px); color: #732090;}
 /* 모바일 공지사항 팝업창 */
 .lockBg.noticeV div {width: 30px; height: 30px; position: absolute; right: 10px;}
-.lockBg.noticeV .shareClose {background-image: url('/2023/common/img-mo/sub/shareClose.png'); top: 100px; width: 20px !important; height: 20px !important;}
-.lockBg.noticeV .shareFaceBook {background-image: url('/2023/common/img-mo/sub/shareFb.png'); top: 145px;}
-.lockBg.noticeV .shareUrl {background-image: url('/2023/common/img-mo/sub/shareUrl.png'); top: 185px;}
+.lockBg.noticeV .shareClose {background-image: url('./common/img-mo/sub/shareClose.png'); top: 100px; width: 20px !important; height: 20px !important;}
+.lockBg.noticeV .shareFaceBook {background-image: url('./common/img-mo/sub/shareFb.png'); top: 145px;}
+.lockBg.noticeV .shareUrl {background-image: url('./common/img-mo/sub/shareUrl.png'); top: 185px;}
 
 
-/* 이용약관 - /2023/customer/policy.asp */
+/* 이용약관 - ./customer/policy.asp */
 .policy {padding:0 10px; width: 80%; margin: 0 auto; padding-top: min(4rem, 40px);}
 .policy h3 {font-size:18pt; font-weight:500; padding:15px 15px; background:#072068; color:#fff; margin:0 -10px; line-height:1.0em;}
 .policy h4 {font-size:14pt; font-weight:600; padding-bottom:10px; padding-top:30px;}
@@ -804,12 +804,12 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 
 
 
-/* 고객센터 - /2023/customer/faq.asp */
+/* 고객센터 - ./customer/faq.asp */
 .faqWrap {padding-top: min(1rem, 10px);}
 
 
 
-/* 회원가입 완료 - /2023/mypage/welcome.asp */
+/* 회원가입 완료 - ./mypage/welcome.asp */
 .welcome {padding: min(9rem, 90px) 0;}
 .welcome img {width: 20%; height: auto; margin: 0 auto; display: block;}
 .welcomeTxts  {margin: 0 auto; width: fit-content; margin-top: min(8rem, 80px); }
@@ -822,7 +822,7 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 
 
 
-/* 회원정보수정 완료 - /2023/mypage/myInfo.asp */
+/* 회원정보수정 완료 - ./mypage/myInfo.asp */
 .profileImg {width: 30%; height: min(16rem, 160px); border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; overflow: hidden; border: 1px solid #ddd;}
 .profileWrap {justify-content: left !important;}
 .profBtn {color: #676767 !important; border : 1px solid #ddd !important; width: 20% !important; height: 30%;}
@@ -835,7 +835,7 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 .modal {overflow:visible !important}
 .btnType001{width:100%; margin-top:24px; position:relative; line-height:48px; background:#732090; border-radius:8px; display:block; padding:0 15px; font-size:15px; font-weight:bold; color:#fff; text-align:center;}
 .currituitionPrvcy{height:200px; overflow: auto; font-size:11px; margin-top:24px;}
-.modal a.close-modal {top: 12px !important; right: 12px !important; background-image: url('/2023/common/img-mo/sub/privacyClose.png') !important; width: 20px !important; height: 20px !important;}
+.modal a.close-modal {top: 12px !important; right: 12px !important; background-image: url('./common/img-mo/sub/privacyClose.png') !important; width: 20px !important; height: 20px !important;}
 .privacyTxt th,
 .privacyTxt td {border:solid 1px #ddd; padding:1px; font-size: 10pt;}
 .privacyTxt th {background:#eee;}
@@ -843,7 +843,7 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 
 
 
-/* 주문결제- /2023/customer/payment.asp */
+/* 주문결제- ./customer/payment.asp */
 .paymentMoWrap {padding-top: 1rem;}
 .paymentMoWrap .mypage-sec {width: 45%; margin: 0 auto;}
 .paymentMoWrap .mo-mypageTit {left: 43%;}
@@ -903,7 +903,7 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 .paymentMoWrap .orderTable tr {display: block;}
 .paymentMoWrap .orderTable tr:nth-child(1) {margin-right: 2%;}
 
-/* 검색결과- /2023/search.asp */
+/* 검색결과- ./search.asp */
 .schWrap .edulistWrap {position: relative; height: auto; margin-top: min(6rem, 60px);}
 .schWrap .eduList { display: flex; display:-webkit-flex; justify-content: space-between; flex-wrap: wrap;}
 .schWrap .eduList.on {height: 100%;}
@@ -916,8 +916,8 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 
 .schWrap .eduList .eduList-TxtsWrap .eduListTit {font-size: min(1.5rem, 15px); line-height: min(1.8rem, 18px); display: block; white-space : nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: min(0.5rem, 5px);}
 .schWrap .eduList .eduList-TxtsWrap .eduPrice {font-size: min(1.5rem, 15px); line-height: min(1.8rem, 18px); color: #999999; margin-top: 5px;}
-.schWrap .eduSelect {background-image: url('/2023/common/img/main/eduSelect.png'); width: 13%; height: min(3rem, 30px); background-size: contain; position: absolute; right: 0; bottom: min(3.3rem, 30px); cursor: pointer; transition: background-image 0.5s;}
-.schWrap .eduSelect.on{background-image: url('/2023/common/img/main/eduSelect-full.png');}
+.schWrap .eduSelect {background-image: url('./common/img/main/eduSelect.png'); width: 13%; height: min(3rem, 30px); background-size: contain; position: absolute; right: 0; bottom: min(3.3rem, 30px); cursor: pointer; transition: background-image 0.5s;}
+.schWrap .eduSelect.on{background-image: url('./common/img/main/eduSelect-full.png');}
 
 .searchTop{text-align: center; padding: min(8rem, 50px) 20px 0 ;}
 .searchTop h2 {font-size: min(3rem, 30px); font-weight: 700;}
@@ -926,13 +926,13 @@ border-bottom-right-radius: 10px; -moz-border-bottom-right-radius : 10px; -webki
 .searchTop p {margin-top: min(2rem, 20px); font-size: min(1.6rem, 16px); line-height: min(3rem, 30px);}
 .searchTop p span {color: #732090;}
 
-.schCancle {display: block; background-image: url('/2023/common/img-mo/sub/schCancle.png'); width: 15px; height: 15px; position: absolute; top: 50%; right: 50px; transform: translate(-3%, -50%); cursor: pointer;}
+.schCancle {display: block; background-image: url('./common/img-mo/sub/schCancle.png'); width: 15px; height: 15px; position: absolute; top: 50%; right: 50px; transform: translate(-3%, -50%); cursor: pointer;}
 
 
 
 /* 팝업창 common */
 .lockBg .topTitle {font-size: 16px; text-align: center; padding: 10px 0; border-bottom: 1px solid #ddd; margin-top: 0;}
-.lockBg .shareClose {background-image: url('/2023/common/img-mo/sub/privacyClose.png'); top: 13px; right:0px; width: 15px !important; height: 15px !important; position: absolute; cursor: pointer;}
+.lockBg .shareClose {background-image: url('./common/img-mo/sub/privacyClose.png'); top: 13px; right:0px; width: 15px !important; height: 15px !important; position: absolute; cursor: pointer;}
 .popTop {position: relative;}
 .popInfo {font-size: 10px; color: #777; margin-top: 10px;}
 .lockBg {position: fixed; top:0; left:0; width: 100vw; height: 100vh;z-index: 99999; background-color: rgba(0, 0, 0, 0.8); display: none !important;}
