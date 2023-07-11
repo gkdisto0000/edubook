@@ -1,8 +1,12 @@
 
 
 
-<!--#include virtual = "/2023/common/inc/head.asp"-->
+<!-- js -->
+<script type="text/javascript" src="../common/js/jquery-1.8.3.min.js"></script>
+<body>
 
+
+<div class="headerInc"></div>
 
 
 <body>
@@ -11,11 +15,12 @@
 
 
 <div class="mypageWrap cartWrap">
-<!-- gnb -->
-<!--#include virtual = "/2023/common/inc/gnb.asp"-->
+	<!-- gnb -->
+	<div class="gnbInc"></div>
 
 
-	<!--#include virtual = "/2023/common/inc/userInfo.asp"-->
+
+	<div class="userInfoInc"></div>
 
 
 	
@@ -210,16 +215,19 @@
 </div><!-- cartWrap -->
 
 
-
 	<!-- footer -->
-	<!--#include virtual = "/2023/common/inc/footer.asp"-->
-
+	<div class="footerInc"></div>
 
 </body>
 
 
-<script>
 
+<script>
+$('.headerInc').load('../common/inc/head_sub.html');
+$('.gnbInc').load('../common/inc/gnb.html');
+$('.userinfoInc').load('../common/inc/userInfo.html');
+$('.footerInc').load('../common/inc/footer.html');
 </script>
+		
 
 </html>

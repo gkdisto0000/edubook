@@ -1,12 +1,12 @@
 
 
 <!-- 우측 퀵메뉴 -->
-<!--#include virtual = "./common/inc/quick-menu.asp"-->
+<!--#include virtual = "./common/inc/quick-menu.html"-->
 
 
 <!-- gnbWrap -->
 <div class="gnbWrap">
-	<!--#include virtual = "./common/inc/topTxts.asp"-->
+	<!--#include virtual = "./common/inc/topTxts.html"-->
 
 
 	<div class="container">
@@ -14,7 +14,7 @@
 			<div class="gnbMiddle">
 				<div class="gnbMid-left">
 
-					<h1 class="bgImageSet pcShow"><a href="./"></a></h1>
+					<h1 class="bgImageSet pcShow"><a href="../index.html"></a></h1>
 
 
 						<h1 class="bgImageSet moShow"><a href="./"></a></h1>
@@ -25,40 +25,7 @@
 
 					<!-- mo gnb -->
 					<div class="moGnb moShow">
-						<% If instr(Pagename,"./mypage/sitemap.asp") Then%>
-							<h3 class="mo-mypageTit">마이페이지</h3>
-						<% elseIf instr(Pagename,"./mypage/join.asp") Then%>
-							<h3 class="mo-mypageTit">회원가입</h3>
-						<% elseIf instr(Pagename,"./mypage/login.asp") Then%>
-							<h3 class="mo-mypageTit">로그인</h3>
-						<% elseIf instr(Pagename,"/community/noticeView.asp") Then%>
-							<h3 class="mo-mypageTit">공지사항</h3>
-						<% elseIf instr(Pagename,"./mypage/inquiry.asp") Then%>
-							<h3 class="mo-mypageTit">1:1 문의사항</h3>
-						<% elseIf instr(Pagename,"./mypage/points.asp") Then%>
-							<h3 class="mo-mypageTit">포인트</h3>
-						<% elseIf instr(Pagename,"./mypage/cart.asp") Then%>
-							<h3 class="mo-mypageTit">장바구니</h3>
-						<% elseIf instr(Pagename,"./download/list.asp") Then%>
-							<h3 class="mo-mypageTit">예제파일 다운로드</h3>
-						<% elseIf instr(Pagename,"./customer/policy.asp") Then%>
-							<h3 class="mo-mypageTit">이용약관</h3>
-						<% elseIf instr(Pagename,"./customer/privacy.asp") Then%>
-							<h3 class="mo-mypageTit privacyTop">개인정보 처리방침</h3>
-						<% elseIf instr(Pagename,"./customer/faq.asp") Then%>
-							<h3 class="mo-mypageTit">고객센터</h3>
-						<% elseIf instr(Pagename,"./mypage/welcome.asp") Then%>
-							<h3 class="mo-mypageTit">회원가입 완료</h3>
-						<% elseIf instr(Pagename,"./mypage/welcomeRe.asp") Then%>
-							<h3 class="mo-mypageTit">회원가입 실패</h3>
-						<% elseIf instr(Pagename,"./mypage/myInfo.asp") Then%>
-							<h3 class="mo-mypageTit">회원정보 수정</h3>
-						<% elseIf instr(Pagename,"./mypage/purchase.asp") Then%>
-							<h3 class="mo-mypageTit">교재배송</h3>
-						<% elseIf instr(Pagename,"./customer/payment.asp") Then%>
-							<h3 class="mo-mypageTit">주문/결제</h3>
-						<% else %> 
-							<a href="./mypage/sitemap.asp">
+							<a href="./mypage/sitemap.html">
 								<div class="hamburger">
 									<ul>
 										<li class="line"></li>
@@ -90,7 +57,7 @@
 					<div class="gnbInfo">
 
 						<!-- 로그인시 -->
-						<a href="./mypage/cart.asp">
+						<a href="../mypage/cart.html">
 							<div class="shopBasketWrap">
 								<div class="shopBasket bgImageSet"></div>
 								<span class="basketNum">12</span>
@@ -98,8 +65,8 @@
 						</a>
 
 						<ul>
-							<li><a href="./community/notice.asp">공지사항</a></li>
-							<li><a href="./customer/faq.asp">고객센터</a></li>
+							<li><a href="../community/notice.html">공지사항</a></li>
+							<li><a href="../customer/faq.html">고객센터</a></li>
 						</ul>
 
 
@@ -107,10 +74,10 @@
 
 						<!-- 비로그인시 -->
 						<!-- <ul>
-							<li><a href="./community/notice.asp">공지사항</a></li>
-							<li><a href="./mypage/join.asp">회원가입</a></li>
-							<li><a href="./mypage/login.asp">로그인</a></li>
-							<li><a href="./customer/faq.asp">고객센터</a></li>
+							<li><a href="./community/notice.html">공지사항</a></li>
+							<li><a href="./mypage/join.html">회원가입</a></li>
+							<li><a href="./mypage/login.html">로그인</a></li>
+							<li><a href="./customer/faq.html">고객센터</a></li>
 						</ul> -->
 
 
@@ -126,7 +93,7 @@
 					<input type="" placeholder="교재명을 입력해주세요.">
 					<!-- 검색어 리셋 아이콘 -->
 					<!-- <a href="" class="schCancle bgImageSet"></a> -->
-					<a href="./search.asp"><img src="./common/img/main/search.png" alt="검색버튼"></a>
+					<a href="./search.html"><img src="./common/img/main/search.png" alt="검색버튼"></a>
 				</div>
 			</div>
 

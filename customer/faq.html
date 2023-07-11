@@ -1,0 +1,69 @@
+
+<!--#include virtual = "/2023/common/inc/head.html"-->
+<body>
+
+
+
+<div class="faqWrap">
+<!-- gnb -->
+<!--#include virtual = "/2023/common/inc/gnb.html"-->
+
+
+	
+	<section class="mt80 mypage-sec">
+		<div class="container">
+			<div class="mypageTitWrap">
+				<div class="bkCntInfo-Tit">자주하는 질문</div>
+			</div>
+
+			<dl class="faqList">
+				<%
+				If IsArray(rsGet) Then 
+
+					For i = 0 To UBound(rsGet,2) 
+						bb_bc_seq = rsGet(3,i)
+						bc_title = rsGet(10,i)
+						bc_regdate = rsGet(13,i)
+						bc_Count = rsGet(12,i)
+						bb_seq = rsGet(4,i)
+						bb_CoCount = rsGet(15,i)
+						bb_gubun = rsGet(20,i)
+						bc_writer = rsGet(11,i) &"("&rsGet(21,i)&")"
+
+
+						bb_Content = rsGet(22,i)
+					%>
+				<dt><span class="qIcon">Q</span><%=bc_title%></dt>
+				<dd>
+					<span class="qIcon">A</span>
+					<%=Replace(bb_Content,Chr(10),"<br>")%>
+				</dd>
+
+					<%
+				Next
+			END If
+			%>
+			</dl>
+
+		
+		
+		</div><!-- container -->
+	</section>
+
+
+</div><!-- faqWrap -->
+
+
+
+	<!-- footer -->
+	<!--#include virtual = "/2023/common/inc/footer.html"-->
+
+
+</body>
+
+
+<script>
+
+</script>
+
+</html>

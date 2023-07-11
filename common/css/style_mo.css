@@ -1,4 +1,4 @@
-/* ¸ð¹ÙÀÏ 768px~0 */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ 768px~0 */
 
 /* container */
 /* 1rem, 10px */
@@ -42,7 +42,7 @@ p {font-size: min(2rem, 20px); line-height: min(3rem, 30px);}
 .historyBack a {display: block; width: 100%; height: 100%;}
 
 
-/* ----------------------------------------------¸ÞÀÎ index.asp---------------------------------------------- */
+/* ----------------------------------------------ï¿½ï¿½ï¿½ï¿½ index.asp---------------------------------------------- */
 /* main-banner */
 
 .mainBnrWrap {width: 100%; padding-top: 0;}
@@ -192,12 +192,12 @@ footer .ftrRht {display: none;}
 
 
 /* mypage common */
-/* ¸¶ÀÌÆäÀÌÁö »ó´Ü °Ë»öÃ¢ ºñ³ëÃâ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½Ã¢ ï¿½ï¿½ï¿½ï¿½ï¿½ */
 .mypageWrap .gnbBtm {display: none !important;}
 
 
 
-/* ¸ð¹ÙÀÏÁÖ¹®°áÁ¦Ã¢ /2023/customer/payment.asp*/
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½Ã¢ /2023/customer/payment.asp*/
 .mo-BuyWrap {position: fixed; bottom: 0; left:0; width: 100vw; padding: 15px 20px; background-color: #fff;  border-top-left-radius: 20px; border-top-right-radius: 20px; box-shadow:0px 0px 16px 0px rgb(123 123 123 / 40%); -moz-box-shadow: 0px 0px 16px 0px rgba(123, 123, 123, 0.22); -webkit-box-shadow: 0px 0px 16px 0px rgb(123 123 123 / 40%); }
 .mo-BuyWrap .mo-BuyBtn { background-color: #732090; color: #fff; padding: 15px 0; font-size: min(2.6rem, 26px);}
 .mo-BuyWrap .mo-BuyTxtsTop {font-weight: 700; font-size: min(2.4rem, 24px); display: flex; display:-webkit-flex; justify-content: space-between; padding: 5px 0 15px;}
@@ -292,7 +292,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* ¸¶ÀÌÆäÀÌÁö common */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ common */
 .myPageCnt {border-top: 0;}
 .myPageCnt .myCntItem .myCntTxt .myCntCate {font-size: min(1.8rem, 18px);}
 .myPageCnt .myCntItem .myCntTxt .myCntTit {font-size: min(2.2rem, 22px);}
@@ -300,7 +300,7 @@ footer .ftrRht {display: none;}
 .mypage-sec .myPageCnt .checkIcon {margin-top: 0.5rem;}
 
 
-/* Àå¹Ù±¸´Ï- /2023/mypage/cart.asp */
+/* ï¿½ï¿½Ù±ï¿½ï¿½ï¿½- /2023/mypage/cart.asp */
 .cartWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .cartWrap .mypage-top{display: none;}
 .cartWrap .mypage-sec .mypageTitWrap .bkCntInfo-Tit{display: none;}
@@ -339,7 +339,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* ·Î±×ÀÎ- /2023/mypage/login.asp */
+/* ï¿½Î±ï¿½ï¿½ï¿½- /2023/mypage/login.asp */
 .mylogin {width: 100%; padding: min(4rem, 40px) 0; padding-top: min(2rem, 20px);}
 .joinTop {display: none;}
 .loginWrap {border-radius: 5px; -moz-border-radius : 5px; -webkit-border-radius : 5px;}
@@ -351,7 +351,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* È¸¿ø°¡ÀÔ- /2023/mypage/join.asp */
+/* È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½- /2023/mypage/join.asp */
 .gnbTop {height: min(5rem, 50px); line-height: min(5rem, 50px);}
 .gnbTop p {font-size: min(2rem, 20px);}
 .myJoin {width: 100%; padding: min(4rem, 40px) 0;}
@@ -364,7 +364,7 @@ footer .ftrRht {display: none;}
 .myJoinWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 
 
-/* °øÁö»çÇ×- /2023/community/notice.asp */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½- /2023/community/notice.asp */
 .noticePadList {display: block; display:-webkit-block;}
 .noticePadList li {width: 100%;}
 .noticeTxts h3 {width: 100%; font-size: min(2.5rem, 25px);}
@@ -374,7 +374,7 @@ footer .ftrRht {display: none;}
 .noticeTxts {padding-left: 0;}
 
 
-/* °øÁö»çÇ× »ó¼¼- /2023/community/noticeView.asp */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½- /2023/community/noticeView.asp */
 .noticeViewWrap .noticeDate {display: none;}
 .noticeViewWrap .noticeList {padding-top: 0;}
 .noticeViewWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
@@ -404,7 +404,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* 1:1¹®ÀÇ- /2023/mypage/inquiry.asp */
+/* 1:1ï¿½ï¿½ï¿½ï¿½- /2023/mypage/inquiry.asp */
 .inquiryWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .inquiryWrap .mypage-top {display: none;}
 .inquiryWrap .mypage-sec .mypageTitWrap {padding-top: min(2rem, 20px); padding-bottom: 0;}
@@ -426,7 +426,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* Æ÷ÀÎÆ®- /2023/mypage/points.asp */
+/* ï¿½ï¿½ï¿½ï¿½Æ®- /2023/mypage/points.asp */
 .pointsWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .pointsWrap .mypage-top {display: none;}
 .pointsWrap .points-sec .mypageTitWrap {padding-top: min(2rem, 20px);}
@@ -448,7 +448,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* ½ºÅ©·¦ºÏ- /2023/mypage/scrapBook.asp */
+/* ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½- /2023/mypage/scrapBook.asp */
 .scrapBookWrap .mypage-top {display: none;}
 .scrapBookWrap .related-sec {display: none;}
 .scrapBookWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
@@ -464,7 +464,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* ¿¹Á¦ ´Ù¿î·Îµå- /2023/download/list.asp */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½- /2023/download/list.asp */
 .downlistWrap .mypage-top {display: none;}
 .downlistWrap .related-sec {display: none;}
 .downlistWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
@@ -494,7 +494,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* ÀÌ¿ë¾à°ü,°³ÀÎÁ¤º¸Ã³¸® - /2023/customer/policy.asp , /2023/customer/privacy.asp */
+/* ï¿½Ì¿ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ - /2023/customer/policy.asp , /2023/customer/privacy.asp */
 .policy {width: 100%;}
 .policyWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .privacyTop {left: 32% !important;}
@@ -503,13 +503,13 @@ footer .ftrRht {display: none;}
 
 
 
-/* °í°´¼¾ÅÍ - /2023/customer/faq.asp */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - /2023/customer/faq.asp */
 .faqWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 
 
 
 
-/* È¸¿ø°¡ÀÔ ¿Ï·á - /2023/mypage/welcome.asp */
+/* È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï·ï¿½ - /2023/mypage/welcome.asp */
 .welcomeWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .welcome {padding: min(16rem, 160px) 0 0;}
 .welcome img {width: 40%;}
@@ -518,13 +518,13 @@ footer .ftrRht {display: none;}
 
 
 
-/* È¸¿øÁ¤º¸¼öÁ¤- /2023/mypage/myInfo.asp */
+/* È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½- /2023/mypage/myInfo.asp */
 .profileWrap a {width: 28% !important;}
 
 
 
 
-/* ±³Àç¹è¼Û- /2023/mypage/purchase.asp */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½- /2023/mypage/purchase.asp */
 .purchaseWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .purchaseWrap .mypage-top {display: none;}
 .purchaseWrap .bkCntInfo-Tit {display: none;}
@@ -547,7 +547,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* ¹ÝÇ° ÆË¾÷Ã¢ */
+/* ï¿½ï¿½Ç° ï¿½Ë¾ï¿½Ã¢ */
 .canclePopCnt {background-color: #fff;width: 420px; margin: 0 auto; border-radius: 10px; -moz-border-radius : 10px; -webkit-border-radius : 10px; padding: 0 20px; height: 130vw; padding-bottom: 30px; position: absolute; top: 20px; left: 50%; transform: translate(-50%, 20px); overflow-y: scroll; width: 90%; font-size: min(2rem, 20px);}
 
 .cancleMid .bkTit {width: initial; font-size: min(2rem, 20px); line-height: min(3rem, 30px);}
@@ -557,20 +557,20 @@ footer .ftrRht {display: none;}
 .canclePopCnt .cartOrder li {font-size: min(2rem, 20px);}
 
 
-/* Àå¹Ù±¸´Ï È®ÀÎ ÆË¾÷Ã¢ - /2023/customer/purchase_inform.asp */
+/* ï¿½ï¿½Ù±ï¿½ï¿½ï¿½ È®ï¿½ï¿½ ï¿½Ë¾ï¿½Ã¢ - /2023/customer/purchase_inform.asp */
 .informPopCnt {width: 90%;}
 .informPopCnt p {font-size: min(2.2rem, 22px);  font-size: min(2.5rem, 25px);}
 .informPopCnt .cartOrder .btn a {font-size: min(2.2rem, 22px);}
 
 
-/* ¸®ºä ÆË¾÷Ã¢ */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾ï¿½Ã¢ */
 .reviewPopCnt {width: 90%;}
 .reviewPhotoBtn span:after {display: none;}
 .reviewCnt {display: block;  display:-webkit-block;}
 
 
 
-/* 1:1 ¹®ÀÇ ÆË¾÷Ã¢ */
+/* 1:1 ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾ï¿½Ã¢ */
 .inquiryPopCnt {width: 90%;}
 .inquiryPopCnt .no-flex {display: block; display:-webkit-block;}
 .inquiryPopCnt .inTit {width: 100%;}
@@ -579,14 +579,14 @@ footer .ftrRht {display: none;}
 .inquiryPopCnt .popInfo br {display: none;}
 
 
-/* ¹è¼ÛÁö ¼öÁ¤ ÆË¾÷Ã¢ - /2023/customer/address_edit.asp */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾ï¿½Ã¢ - /2023/customer/address_edit.asp */
 .blocker {padding: 0 !important;}
 .addEditPopCnt .orderTable {font-size: min(2rem, 20px);}
 
 
 
 
-/* ÁÖ¹®°áÁ¦- /2023/customer/payment.asp */
+/* ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½- /2023/customer/payment.asp */
 .paymentMoWrap .mypage-sec {width: 100%; margin: 0 auto;}
 .paymentMoWrap .gnbMiddle .gnbMid-right .gnbInfo {display: none;}
 .paymentMoWrap .mo-mypageTit { font-size: min(3rem, 30px);}
@@ -617,7 +617,7 @@ footer .ftrRht {display: none;}
 
 
 
-/* °Ë»ö°á°ú- /2023/search.asp */
+/* ï¿½Ë»ï¿½ï¿½ï¿½ï¿½- /2023/search.asp */
 .schWrap .eduList .eduCntWrap {width: 49%;}
 .schWrap .eduList .eduCntWrap {margin-top: min(2.5rem, 25px);}
 .schWrap .eduList .eduList-TxtsWrap .delivery {display: none;}

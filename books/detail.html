@@ -1,18 +1,17 @@
 
 
 
-<!--#include virtual = "/2023/common/inc/head.asp"-->
-
-
-
+<!-- js -->
+<script type="text/javascript" src="../common/js/jquery-1.8.3.min.js"></script>
 <body>
 
 
-
+<div class="headerInc"></div>
 
 <div class="mypageWrap bookViewWrap">
-<!-- gnb -->
-<!--#include virtual = "/2023/common/inc/gnb.asp"-->
+	<!-- gnb -->
+	<div class="gnbInc"></div>
+
 
 	<section class="bookView-TopWrap">
 		<div class="container">
@@ -21,12 +20,12 @@
 					<div class="topCate">
 						교재몰 / <span>디자인</span> 
 					</div>
-					<img src="/2023/common/img/sub/cate-down.png" alt="교재몰 카테고리" class="pcShow"> 
-					<img src="/2023/common/img-mo/sub/cate-down-wh.png" alt="교재몰 카테고리" class="moShow">
+					<img src="../common/img/sub/cate-down.png" alt="교재몰 카테고리" class="pcShow"> 
+					<img src="../common/img-mo/sub/cate-down-wh.png" alt="교재몰 카테고리" class="moShow">
 				</div>
 				<div class="bkViewTop-CntWrap">
 					<div class="bkViewLeft">
-						<img src="/2023/common/img/main/book-cover01.png" alt="">
+						<img src="../common/img/main/book-cover01.png" alt="">
 					</div>
 					<div class="bkViewRight">
 						
@@ -55,7 +54,7 @@
 						<div class="bkDeliverWrap">
 							<h3>배송정보</h3>
 							<div class="bkDeliCnt">
-								<img src="/2023/common/img/sub/delivery-icon.png" alt="배송정보">
+								<img src="../common/img/sub/delivery-icon.png" alt="배송정보">
 								<div class="bkDeliTxts">
 									주문 시 2일 이내 출고예정 <span>(주말/공휴일 제외)</span><br>
 									배송비 무료
@@ -81,7 +80,7 @@
 
 				<div class="bkListTop-Btm">
 					<a onclick="javascript:informOpen();"><div class="bkTopBtns bkTopShowBag">장바구니</div></a>
-					<a href="/2023/customer/payment.asp"><div class="bkTopBtns bkTopBuy">바로구매</div></a>
+					<a href="../customer/payment.asp"><div class="bkTopBtns bkTopBuy">바로구매</div></a>
 				</div>
 
 
@@ -93,14 +92,14 @@
 
 
 
-	<!--#include virtual = "/2023/common/inc/midBanner.asp"-->
+	<!--#include virtual = "../common/inc/midBanner.asp"-->
 
 
 	<!-- 도서 nav MO용 PC는 하단-->
 	<ul class="bkCntInfo-nav moShow">
 		<li class="on detailInfo">도서정보</li>
 		<li class="detailDeliver">교환/환불/배송</li>
-		<li class="detailQnA"><a href="/2023/mypage/inquiry.asp">상품 Q&A</a></li>
+		<li class="detailQnA"><a href="../mypage/inquiry.asp">상품 Q&A</a></li>
 	</ul>
 
 
@@ -116,7 +115,7 @@
 
 
 					<div class="bkCntInfo-Image">
-						<img src="/2023/common/img/sub/book-sectionImg.png" alt="book-sectionImg">
+						<img src="../common/img/sub/book-sectionImg.png" alt="book-sectionImg">
 
 						<div class="bkTable">
 							●목차안내<br>	
@@ -142,11 +141,11 @@
 				</div>
 
 					<div class="closeTabWrap">
-						<img src="/2023/common/img/sub/close-tab.png" alt="상세페이지 접기">
+						<img src="../common/img/sub/close-tab.png" alt="상세페이지 접기">
 						<h4>상세페이지 접기</h4>
 					</div>
 					<div class="openTabWrap">
-						<img src="/2023/common/img/sub/close-tab.png" alt="상세페이지 접기">
+						<img src="../common/img/sub/close-tab.png" alt="상세페이지 접기">
 						<h4>상세페이지 열기</h4>
 					</div>
 
@@ -201,14 +200,14 @@
 				<ul class="bkCntInfo-nav pcShow">
 					<li class="on detailInfo">도서정보</li>
 					<li class="detailDeliver">교환/환불/배송</li>
-					<li class="detailQnA"><a href="/2023/mypage/inquiry.asp">상품 Q&A</a></li>
+					<li class="detailQnA"><a href="../mypage/inquiry.asp">상품 Q&A</a></li>
 				</ul>
 
 
 				
 				<div class="bkSelectList-Wrap">
 					<!-- <div class="mo-closeBtn moShow">
-						<img src="/2023/common/img/sub/btn-cancle.png" alt="">
+						<img src="../common/img/sub/btn-cancle.png" alt="">
 					</div> -->
 					<div class="bkSelectBooks">
 
@@ -247,7 +246,7 @@
 						</div>
 
 						<div class="bkListWrap directBuy">
-							<a href="/2023/customer/payment.asp" class="bkTopBtns bkTopBuy">바로구매</a>
+							<a href="../customer/payment.asp" class="bkTopBtns bkTopBuy">바로구매</a>
 						</div>
 					</div>
 				</div>
@@ -272,15 +271,18 @@
 <div class="lockCnts lockBg-snd moShow">
 </div>
 
-<!-- footer -->
-<!--#include virtual = "/2023/common/inc/footer.asp"-->
+	<!-- footer -->
+	<div class="footerInc"></div>
 
 
 </body>
 
 
 <script>
-
+$('.headerInc').load('../common/inc/head_sub.html');
+$('.gnbInc').load('../common/inc/gnb.html');
+$('.footerInc').load('../common/inc/footer.html');
 </script>
+	
 
 </html>
